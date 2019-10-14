@@ -1,0 +1,46 @@
+.li{
+  &__title{
+    font-size: 18px;
+    color: black;
+    margin-bottom: 10px;
+  }
+
+  &__text{
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-transform: lowercase;
+  }
+
+  &__date{
+    font-size: 10px;
+  }
+  &__note{
+    font-size: 6px;
+  }
+}
+
+
+.forms{
+  position: fixed;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 500px;
+  height: 300px;
+  background: #e1d004;
+  box-sizing: border-box;
+  padding: 30px 50px;
+}
+
+.overlay {
+  position: relative;
+  z-index: 1;
+  background: rgba(0,0,0,0.4);
+}
+
+.label__text{
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
